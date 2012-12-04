@@ -1,1 +1,14 @@
 // This is your framework's main stylesheet. Use it to import all default modules.
+
+@import "kilter/filters";
+
+@mixin filter ($filters...) {
+  @each $filter in $filters {
+    // TODO not calling function properly
+    $name: filter_name(filter);
+
+    @if $name == grayscale {
+      @include grayscale($filter);
+    }
+  }
+}

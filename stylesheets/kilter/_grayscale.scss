@@ -1,0 +1,5 @@
+// $val: number or percentage
+@mixin grayscale($val) {
+  -webkit-filter: grayscale($val);
+  filter: grayscale($val);
+}

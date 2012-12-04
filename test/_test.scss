@@ -1,0 +1,11 @@
+@import "../stylesheets/kilter";
+
+.grayscale img {
+  &.direct {
+    @include grayscale(100%);
+  }
+  // not yet working
+  &.filter {
+    @include filter(greyscale(100%));
+  }
+}

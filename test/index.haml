@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %title 
+      Kilter
+    %link{ href: 'test_setup.css', rel: 'stylesheet' }
+  %body
+    - FILTERS = [:grayscale]
+    - FILTERS.each do |filter|
+      %div{ class: filter }
+        %h2= filter
+        %img.original{ src: 'lenna.jpg', width: 150, height: 150 }
+        %img.direct{ src: 'lenna.jpg', width: 150, height: 150 }
+        %img.filter{ src: 'lenna.jpg', width: 150, height: 150 }
