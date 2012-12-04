@@ -2,10 +2,10 @@
 
 .grayscale img {
   &.direct {
-    @include grayscale(100%);
+    @include grayscale(75%);
   }
   // not yet working
   &.filter {
-    @include filter(greyscale(100%));
+    @include filter(greyscale(75%));
   }
 }
