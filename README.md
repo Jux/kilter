@@ -1,6 +1,6 @@
 # Kilter
 
-CSS filters that work across browsers.  Requires Ruby 1.9.
+CSS filters that work across browsers.  Requires Ruby 1.9.2 or 1.9.3.
 
 ## Usage
 
@@ -13,16 +13,13 @@ gem 'kilter', '~> 0.1.0'
 In your `.scss` file (or the equivalent in `.sass`):
 
 ```scss
-@import "kilter";
-
+@import "kilter"; // all filters
+// OR
+@import "kilter/grayscale"; // only a specific filter
 
 img.grayscale {
   @include grayscale(75%);
-}
-
-// OR
-
-img.grayscale {
+  // OR
   @include filter(grayscale(75%));
 }
 ```

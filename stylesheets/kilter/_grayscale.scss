@@ -3,7 +3,9 @@
   // thanks to http://www.karlhorky.com/2012/06/cross-browser-image-grayscale-with-css.html
 
   // IE 6-9
-  filter: gray;
+  @if $val >= 50% {
+    filter: gray;
+  }
 
 
   // Firefox 3.5+
