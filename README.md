@@ -4,6 +4,12 @@ CSS filters that work across browsers.  Requires Ruby 1.9.
 
 ## Usage
 
+Add to your `Gemfile`:
+
+```ruby
+gem 'kilter', '~> 0.1.0'
+```
+
 In your `.scss` file (or the equivalent in `.sass`):
 
 ```scss

@@ -5,5 +5,4 @@ Compass::Frameworks.register('kilter', path: extension_path)
 require_relative 'kilter/sass_extensions'
 
 module Kilter
-  VERSION = "0.0.1"
 end

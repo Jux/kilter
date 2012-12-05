@@ -1,7 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem 'compass', '~> 0.12.0'
-
-group :development do
-  gem 'haml-server'
-end
+# Specify your gem's dependencies in kilter.gemspec
+gemspec
