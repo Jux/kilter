@@ -4,8 +4,7 @@
   &.direct {
     @include grayscale(75%);
   }
-  // not yet working
   &.filter {
-    @include filter(greyscale(75%));
+    @include filter(grayscale(75%));
   }
 }

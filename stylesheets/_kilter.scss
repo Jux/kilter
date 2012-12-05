@@ -4,11 +4,11 @@
 
 @mixin filter ($filters...) {
   @each $filter in $filters {
-    // TODO not calling function properly
-    $name: filter_name(filter);
+    $name: filter_name($filter);
 
     @if $name == grayscale {
-      @include grayscale($filter);
+      $args: filter_args($filter);
+      @include grayscale(unquote($args));
     }
   }
 }
