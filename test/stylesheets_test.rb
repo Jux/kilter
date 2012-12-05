@@ -1,7 +1,7 @@
-require_relative '../lib/kilter'
-
 require 'bundler'
 Bundler.require(:default, :development, :test)
+
+require_relative '../helpers'
 
 require 'test/unit'
 require 'sass/plugin'
