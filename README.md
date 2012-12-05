@@ -2,6 +2,25 @@
 
 CSS filters that work across browsers.  Requires Ruby 1.9.
 
+## Usage
+
+In your `.scss` file (or the equivalent in `.sass`):
+
+```scss
+@import "kilter";
+
+
+img.grayscale {
+  @include grayscale(75%);
+}
+
+// OR
+
+img.grayscale {
+  @include filter(grayscale(75%));
+}
+```
+
 ## Contributing
 
 ```
@@ -18,3 +37,4 @@ open http://localhost:4567/test/index.html
 * [Compass: Filter](http://compass-style.org/reference/compass/css3/filter/)
 * [Compass: Cross-Browser Support Configuration](http://compass-style.org/reference/compass/support/)
 * [MDN: Applying SVG effects to HTML content](https://developer.mozilla.org/en-US/docs/Applying_SVG_effects_to_HTML_content)
+* [Polyfilter](https://github.com/Schepp/CSS-Filters-Polyfill)
