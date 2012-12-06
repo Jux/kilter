@@ -1,4 +1,4 @@
-# Kilter
+# Kilter [![Build Status](https://secure.travis-ci.org/afeld/kilter.png?branch=master)](https://travis-ci.org/afeld/kilter)
 
 CSS filters that work across browsers.  Requires Ruby 1.9.2 or 1.9.3.
 
