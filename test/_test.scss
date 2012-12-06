@@ -5,6 +5,6 @@
     @include grayscale(75%);
   }
   &.filter {
-    @include filter(grayscale(75%));
+    @include kilter(grayscale(75%));
   }
 }

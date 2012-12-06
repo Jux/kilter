@@ -18,9 +18,9 @@ In your `.scss` file (or the equivalent in `.sass`):
 @import "kilter/grayscale"; // only a specific filter
 
 img.grayscale {
-  @include grayscale(75%);
+  @include kilter(grayscale(75%));
   // OR
-  @include filter(grayscale(75%));
+  @include grayscale(75%);
 }
 ```
 

@@ -1,4 +1,4 @@
-@import "compass/css3/shared";
+@import "compass/css3/filter";
 
 // $val: number or percentage
 @mixin grayscale($val) {
@@ -22,5 +22,5 @@
 
 
   // newer browsers
-  @include experimental(filter, grayscale($val));
+  @include filter(grayscale($val));
 }

@@ -2,7 +2,7 @@
 
 @import "kilter/filters";
 
-@mixin filter ($filters...) {
+@mixin kilter ($filters...) {
   @each $filter in $filters {
     $name: filter_name($filter);
 
