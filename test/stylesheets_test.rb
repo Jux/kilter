@@ -4,7 +4,6 @@ Bundler.require(:default, :development, :test)
 require_relative '../helpers'
 
 require 'test/unit'
-require 'sass/plugin'
 require 'compass/test_case'
 
 
